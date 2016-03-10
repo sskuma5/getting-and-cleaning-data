@@ -6,7 +6,7 @@ trainSubjects <- read.table("UCI HAR Dataset/train/subject_train.txt")
 testActivities <- read.table("UCI HAR Dataset/test/Y_test.txt")
 testSubjects <- read.table("UCI HAR Dataset/test/subject_test.txt")
 
-# Load activity labels + features
+# Load activity labels and features
 activityLabels[,2] <- as.character(read.table("UCI HAR Dataset/activity_labels.txt")[,2])
 featuresData[,2] <- as.character(read.table("UCI HAR Dataset/features.txt")[,2])
 
